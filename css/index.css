@@ -1,0 +1,302 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-21 10:31:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-23 03:09:23
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 0.53rem;
+	background: #212121;
+}
+.head_left{
+	width: 1.2rem;
+	height: 0.29rem;
+	/* background: pink; */
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 0.2rem;
+}
+/* .head_left i{
+	float: left;
+	font-size: 0.3rem;
+	color: #fff;
+} */
+.head_left img{
+	display: block;
+	width: 1.2rem;
+}
+.head_text{
+	float: left;
+	font-size: 0.15rem;
+	color: #fff;
+	margin-top: 0.08rem;
+	margin-right: 0.08rem;
+}
+.head_right{
+	width: 0.26rem;
+	height: 0.16rem;
+	/* background: pink; */
+	float: right;
+	margin: 0.19rem 0.19rem 0 0;
+	/* margin-top: 0.19rem;
+	margin-right: 0.19rem; */
+}
+/* .head_right i{
+	float: left;
+	font-size: 0.16rem;
+	color: #595959;
+} */
+.head_right span{
+	display: block;
+    width: 0.26rem;
+    height: 0.02rem;
+    background: #585858;
+    margin-bottom: 0.05rem;
+}
+.head_right span:last-child{
+    margin-bottom: 0;
+}
+/* .banner{
+	width: 4rem;
+	height: 5.64rem;
+	background: #254ad7;
+} */
+.swiper-container{
+	width: 4rem;
+	height: 5.64rem;
+}
+.swiper-container img{
+	display: block;
+	width: 4rem;
+	height: 5.65rem;
+	border-bottom: 0.01rem solid #fff;
+}
+.img_list li{
+	width: 100%;
+	height: 2.5rem;
+	background: pink;
+	border-bottom: 0.01rem solid #fff;
+}
+.img_list li a{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+}
+.list1{
+	background: url('../img/x1.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.img_list li a h1{
+	font-size: 0.18rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.26rem;
+	margin-top: 0.22rem;
+}
+.img_list li a h2{
+	font-size: 0.16rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.26rem;
+}
+.list2{
+	background: url('../img/x2.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.list3{
+	background: url('../img/x3.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.list3 h3{
+	font-size: 0.31rem;
+	color: #d12525;
+	text-align: center;
+	line-height: 0.39rem;
+	margin-top: 0.28rem;
+}
+.list3 h4{
+	font-size: 0.22rem;
+	color: #d92e2d;
+	text-align: center;
+	line-height: 0.39rem;
+}
+.list4{
+	background: url('../img/x4.jpg') no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.list4 h5{
+	font-size: 0.15rem;
+	color: #66666a;
+	text-align: center;
+	line-height: 0.27rem;
+	margin-top: 0.27rem;
+}
+.list4 h6{
+	font-size: 0.15rem;
+	color: #66666a;
+	text-align: center;
+	line-height: 0.27rem;
+}
+.fuwu{
+	width: 100%;
+	/* height: 6rem; */
+	height: 4.43rem;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.fw a{
+	display: block;
+	width: 3.6rem;
+	height: 0.38rem;
+	/* background: red; */
+	margin: 0 auto;
+	border-bottom: 0.01rem solid #cccccc;
+}
+.fw a:first-child{
+	margin-top: 0.19rem;
+}
+.fw a span{
+	display: block;
+	font-size: 0.13rem;
+	color: #666666;
+	font-weight: bold;
+	line-height: 0.38rem;
+	float: left;
+}
+.fw a span:last-child{
+	float: right;
+}
+.time{
+	width: 100%;
+	height: 1.27rem;
+	/* background: red; */
+	border-bottom: 0.01rem solid #666666;
+	overflow: hidden;
+}
+.t_top{
+	width: 1.15rem;
+	height: 0.16rem;
+	/* background: pink; */
+	margin: 0.24rem 0 0 1.43rem;
+	font-size: 0.16rem;
+	color: #333333;
+	text-align: center;
+}
+.t_zhong{
+	width: 1.22rem;
+	height: auto;
+	/* background: yellow; */
+	margin: 0.11rem 0 0 1.39rem;
+	font-size: 0.12rem;
+	color: #5b6666;
+	text-align: center;
+}
+.t_bottom{
+	width: 1.5rem;
+	height: 0.12rem;
+	/* background: green; */
+	margin: 0.11rem 0 0.41rem 1.3rem;
+	font-size: 0.12rem;
+	color: #5b6666;
+	text-align: center;
+}
+.bottom{
+	width: 100%;
+	height: 1.44rem;
+	/* background: red; */
+	overflow: hidden;
+}
+.b_top{
+	width: 1.07rem;
+	height: 0.13rem;
+	/* background: yellow; */
+	margin: 0.18rem 0 0 0.15rem;
+	position: relative;
+}
+.b1{
+	display: block;
+	width: auto;
+	height: 0.13rem;
+	/* background: pink; */
+	float: left;
+	font-size: 0.13rem;
+	color: #aaacac;
+	margin-right: 0.03rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.b2{
+	display: block;
+	width: auto;
+	height: 0.13rem;
+	/* background: pink; */
+	float: right;
+	font-size: 0.13rem;
+	color: #aaacac;
+}
+.b_zhong{
+	width: 2.31rem;
+	height: auto;
+	/* background: pink; */
+	margin: 0.06rem 0 0 0.15rem;
+	font-size: 0.11rem;
+	color:#aaacac; 
+}
+.b_bottom{
+	width: 3.30rem;
+	height: auto;
+	/* background: pink; */
+	margin: 0.07rem 0 0 0.15rem;
+	font-size: 0.11rem;
+	color:#aaacac; 
+}
+.xia{
+	width: 1.8rem;
+	height: 0.32rem;
+	margin: 0.11rem 0 0 0.15rem;
+}
+.x1{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	background: url('../img/x1.png') no-repeat 0 0;
+	margin-right: 0.17rem;
+	float: left;
+}
+.x2{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	background: url('../img/x2.png') no-repeat 0 0;
+	margin-right: 0.17rem;
+	float: left;
+}
+.x3{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	background: url('../img/x3.png') no-repeat 0 0;
+	margin-right: 0.17rem;
+	float: left;
+}
+.x4{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	background: url('../img/x4.png') no-repeat 0 0;
+    float: left;
+}
+
+

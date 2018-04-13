@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="http://at.alicdn.com/t/font_599181_gl0mczf7uf7833di.css">
+        <link rel="stylesheet" href="css/swiper-4.1.6.min.css">
+        <script src="js/rem.js"></script>
+    </head>
+    <body>
+      <header>
+      	<div class="head_left">
+          <img src="img/logo.png" alt="">
+      		<!-- <i class="iconfont icon-msnui-360"></i>
+      		<div class="head_text">360手机</div> -->
+      	</div>
+      	<div class="head_right">
+      		<!-- <i class="iconfont icon-htmal5icon35"></i> -->
+          <span></span>
+          <span></span>
+          <span></span>
+      	</div>
+      </header>
+      <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/b1.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/b2.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/b3.jpg" alt="">
+          </div>
+      </div>
+       <!-- 如果需要分页器 -->
+      <div class="swiper-pagination"></div>
+      
+      <!-- 如果需要导航按钮 -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      
+      <!-- 如果需要滚动条 -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+     </div>
+     <ul class="img_list">
+        <li>
+          <a href="" class="list1">
+            <h1>360手机N6系列</h1>
+            <h2>爆品现货购</h2>
+          </a>
+        </li>
+        <li>
+          <a href="" class="list2">
+            <h1>天猫旗舰店年货节</h1>
+            <h2>明星机直降250元</h2>
+          </a>
+        </li>
+        <li>
+          <a href="" class="list3">
+            <h3>京东旗舰店年货节</h3>
+            <h4>年货钜惠大发送</h4>
+          </a>
+        </li>
+        <li>
+          <a href="" class="list4">
+            <h5>360 OS 3.0</h5>
+            <h6>安全、轻快、省电、黑科技</h6>
+          </a>
+        </li>
+     </ul>
+     <div class="fuwu">
+       <div class="fw">
+      <a href="">
+        <span>产品推荐</span>
+        <span>+</span>
+      </a>
+      <a href="">
+        <span>服务支持</span>
+        <span>+</span>
+      </a>
+      <a href="">
+        <span>订单服务</span>
+        <span>+</span>
+      </a>
+      <a href="">
+        <span>关于公司</span>
+        <span>+</span>
+      </a>
+      <div class="time">
+        <div class="t_top">400-011-1366</div>
+        <div class="t_zhong">服务时间：周一到周日</div>
+        <div class="t_bottom">9:00-21:00（仅收市话费）</div>
+      </div>
+      </div>
+      <div class="bottom">
+        <div class="b_top">
+        <a href="" class="b1">站点地图</a>
+        <a href="" class="b2">问题反馈</a>
+        </div>
+        <div class="b_zhong">京ICP证080047号 京ICP备08010314号-35
+        </div>
+        <div class="b_bottom">CopyRight ©2018  奇酷互联网络科技(深圳)有限公司 版权所有</div>
+        <div class="xia">
+          <a href="" class="x1"></a>
+          <a href="" class="x2"></a>
+          <a href="" class="x3"></a>
+          <a href="" class="x4"></a>
+        </div>
+      </div>
+     </div>
+      <script src="js/swiper-4.1.6.min.js"></script>
+    <script>        
+    var mySwiper = new Swiper ('.swiper-container', {
+      direction: 'horizontal',
+      loop: true,
+      speed:300,
+      autoplay : {
+        delay:3000
+      },
+      effect : 'fade',
+      // 如果需要分页器
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      
+      // 如果需要前进后退按钮
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      
+      // 如果需要滚动条
+      // scrollbar: {
+      //   el: '.swiper-scrollbar',
+      // },
+    })        
+    </script>
+    </body>
+</html>
